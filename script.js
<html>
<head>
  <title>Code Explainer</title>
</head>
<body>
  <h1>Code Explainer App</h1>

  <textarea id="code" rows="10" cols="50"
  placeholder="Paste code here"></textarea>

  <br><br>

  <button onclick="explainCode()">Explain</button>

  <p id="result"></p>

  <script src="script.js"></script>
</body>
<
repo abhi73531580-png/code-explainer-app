@@ -1,0 +1,6 @@
+function explainCode() {
+  let code = document.getElementById("code").value;
+
+  document.getElementById("result").innerHTML =
+    "Explanation: " + code;
+}
